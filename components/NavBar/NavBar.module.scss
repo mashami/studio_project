@@ -1,0 +1,13 @@
+
+.nav{
+    @apply container bg-white flex justify-between items-center py-10 lg:mr-20 mx-auto;
+
+     ul{
+        @apply lg:flex hidden text-[16px] gap-[3.75rem];
+        
+
+        li {
+            @apply tracking-[0.01em]
+        }
+     }
+}

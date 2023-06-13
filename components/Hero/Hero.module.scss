@@ -1,0 +1,15 @@
+
+.parent {
+    @apply flex flex-col w-[100%]
+}
+.hero {
+    @apply container flex items-center lg:gap-x-24 gap-x-0 w-full ;
+
+    .content{
+        @apply lg:w-[40%] w-full lg:space-y-10 space-y-4 lg:text-start text-center relative lg:mb-0 mb-16
+    };
+    
+    
+}
+
+

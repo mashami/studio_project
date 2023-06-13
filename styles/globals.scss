@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+h1 {
+  font-size: 40px;
+  line-height: 49px;
+  @apply font-bold lg:text-[40px] text-[26px] lg:leading-[3.063rem] leading-7
+
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 30px;
+  @apply font-bold
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 25px;
+  @apply font-bold
+};
+
+h4 {
+  font-size: 18px; 
+  line-height: 30px;
+  @apply font-bold
+};
+
+h5 {
+  font-size: 14px;
+  line-height: 160%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 160%;
+  @apply text-gray-500
+}

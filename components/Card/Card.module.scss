@@ -1,0 +1,22 @@
+
+.card{
+    @apply flex flex-col justify-between pb-14  w-[308px] h-[379px] border rounded-3xl shadow-sm bg-white;
+    
+    .svgBgColor{
+        @apply  mt-[39px] mx-[94px] rounded-3xl pb-5;
+
+        .svg{
+            @apply pl-5 flex self-center pt-2
+        }
+    };
+
+    h2{
+        @apply mx-auto text-center font-bold px-14
+    };
+     
+    p{
+        @apply text-center mx-7
+    }
+    
+
+}
